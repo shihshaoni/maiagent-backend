@@ -38,3 +38,14 @@ python manage.py migrate
 
 # Run development server
 python manage.py runserver
+
+# Testing
+python test_conversation.py
+
+# Project Structure
+maiagent_backend/
+├── config/               # Django settings and URL routing
+├── conversation/         # Main app for chat models & views
+├── templates/            # Frontend templates
+└── test_conversation.py  # Example API test script
+
