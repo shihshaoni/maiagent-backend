@@ -42,8 +42,7 @@ python manage.py runserver
 # Testing
 python test_conversation.py
 
-
-## Project Structure
+# Project Structure
 maiagent_backend/
 ├── config/               # Django settings and URL routing
 ├── conversation/         # Main app for chat models & views
