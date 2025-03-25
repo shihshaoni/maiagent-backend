@@ -27,6 +27,13 @@ A Django-based backend system for managing AI-powered conversations.
 | `/api/messages/`      | POST   | Send a message            |
 | `/api/messages/`      | GET    | Get messages by query     |
 
+## Project Structure
+maiagent_backend/
+├── config/               # Django settings and URL routing
+├── conversation/         # Main app for chat models & views
+├── templates/            # Frontend templates
+└── test_conversation.py  # Example API test script
+
 ## How to Run
 
 ```bash
@@ -42,10 +49,5 @@ python manage.py runserver
 # Testing
 python test_conversation.py
 
-# Project Structure
-maiagent_backend/
-├── config/               # Django settings and URL routing
-├── conversation/         # Main app for chat models & views
-├── templates/            # Frontend templates
-└── test_conversation.py  # Example API test script
+
 
